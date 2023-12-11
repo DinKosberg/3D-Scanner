@@ -12,26 +12,31 @@ To run this script, you will need:
 
 - An Arduino board
 - Four LEDs connected to the Arduino's digital pins 10, 11, 12, and 13
-- Python 3.x installed on your computer
+- Python 3.10 installed on your computer
 - The `pyfirmata` Python library
 
 ## Installation
 
-1. **Install Python**:
-   - Download and install Python from [python.org](https://www.python.org/downloads/).
+1. **Install Python 3.10.11**:
+   - Download Python 3.10.11 from the official [Python Releases for Windows page](https://www.python.org/downloads/windows/).
+   - Select the appropriate installer for your system (Windows, macOS, Linux/UNIX).
+   - During installation, ensure to check the option "Add Python 3.10.11 to PATH" to make it accessible from the command line.
 
-2. **Install pyfirmata**:
-   - Install the `pyfirmata` library using pip:
-     ```
-     pip install pyfirmata
-     ```
+2. **Setup the Project**:
+   - Clone this repository to your local machine or download the script.
+   - Navigate to the directory where you've saved the script.
 
-3. **Setup Arduino**:
+3. **Install Dependencies**:
+   - Install the required Python libraries using the requirements file:
+     ```
+     pip install -r requirements.txt
+     ``
+
+4. **Setup Arduino**:
    - Connect the LEDs to the Arduino board on the specified pins.
    - Connect the Arduino to your computer via USB.
 
-4. **Clone the Repository**:
-   - Clone this repository to your local machine or download the script.
+
 
 ## Usage
 
